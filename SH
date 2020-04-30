@@ -1,0 +1,83 @@
+C语言发展历史
+
+1967年CPL语言被英国剑桥的Martin Richards简化成BCPL语言。
+
+1970年美国AT&T贝尔实验室的Ken Thompson以BCPL语言为基础，设计了简单、接近硬件（不是很懂）的B语言，然后用B语言写了第一个UNIX操作系统，但是B语言过于简单且功能有限（没有数据类型）。
+
+1972年美国贝尔实验室 D.M.Ritchie 以B语言为基础，又设计成另一种新语言C语言，既保留了BCPL和B语言的优点，也克服了它们的缺点，C语言具有多种数据类型，比如字符、数值、数组、结构体、指针等。
+
+1973年Ken Thompson和D.M.Ritchie合作把UNIX的90%以上用C语言改写，即UNIX第5版。随着UNIX的日益广泛使用，C语言也迅速得到推广。
+
+1978年以后，C语言先后移植到大、中、小和微型计算机上。C语言便很快风靡全世界，成为世界上应用最广泛的程序设计高级语言。
+
+ 1978年， 以UNIX第7版中的C语言编译程序为基础，Brian W.Kernighan和D.M.Ritchie合著了影响深远的名著The C Programming Language，这本书中介绍的C原因成为后来广泛使用的C语言版本的基础，它是实际上第一个C语言标准。
+
+ 
+
+C++语言发展历史
+
+1979年，Stroustrup发现面向对象的思想对于软件开发非常有用，但是因Simula语言执行效率低，其实用性不强。不久之后，Stroustrup开始着手“C with Classes”的研发工作，这种新语言是在C基础上研发的，是C语言的超集。C语言以其高可移植性而广受好评，且程序执行速度以及底层函数的性能不受程序移植的影响，Stroustrup要做的就是将面向对象的思想引入C语言。新语言的初始版本除了包括C语言的基本特征之外，还具备[类](https://link.zhihu.com/?target=http%3A//www.cplusplus.com/doc/tutorial/classes/)、简单[继承](https://link.zhihu.com/?target=http%3A//www.cplusplus.com/doc/tutorial/inheritance/%23inheritance)、[内联](https://link.zhihu.com/?target=http%3A//www.cplusplus.com/doc/tutorial/functions2/%23inline)机制、[函数默认参数](https://link.zhihu.com/?target=http%3A//www.cplusplus.com/doc/tutorial/functions2/%23default_values)以及强类型检查等特性。Bjarne Stroustrup的第一款“C with classes”编译器叫Cfront，Cfront的机理是把“C with classes”的代码翻译成原生C代码。由于很难整合C++的[异常](https://link.zhihu.com/?target=http%3A//www.cplusplus.com/doc/tutorial/exceptions/)机制，Cfront在1993年退出了历史的舞台，但是它对以后C++编译器以及Unix操作系统的实现都产生了深远的影响。
+
+1983年，“C with Classes”语言更名为C++。许多重要的特性被加入，其中包括[虚函数](https://link.zhihu.com/?target=http%3A//www.cplusplus.com/doc/tutorial/polymorphism/%23virtual)、[函数重载](https://link.zhihu.com/?target=http%3A//www.cplusplus.com/doc/tutorial/functions2/%23function_overload)、引用机制（符号为&）、const关键字以及双斜线的单行注释（从BCPL语言引入）。（这个我没学，不懂，借鉴的）
+
+
+
+Python发展历史
+
+20世纪80年代中期，Python之父Guido van Rossum还在CWI(数学和理论计算机科学领域的研究中心，位于阿姆斯特丹)为ABC语言贡献代码。ABC语言是一个为编程初学者打造的研究项目。ABC语言给了Python之父Guido很大影响，Python从ABC语言中继承了很多东西：比如字符串、列表和字节数列都支持索引、切片排序和拼接操作。
+
+1989年12月，为了打发无聊的圣诞节假期，Guido开始写Python的第一个版本。（我无聊的时候都在玩）
+
+1991年，Python的第一个解释器诞生了。他是由C语言实现的，有很多语法来自C，又受到了很多ABC语言的影响。有很多来自ABC语言的语法，知道今天还很有争议，强制缩进就是其中之一。Python是必须要有缩进的，这也导致了很多其他语言的程序员开玩笑说“Python程序员必须会要用游标卡尺。”
+
+1994年1月， Python1.0版本发布，这个版本的主要新功能是lambda, map, filter和reduce，但是Guido不喜欢这个版本。
+
+2000年10月，Python2.0发布了。这个版本的主要新功能是内存管理和循环检测垃圾收集器以及对Unicode的支持。然而，尤为重要的变化是开发的流程的改变，Python此时有了一个更透明的社区。
+
+2008年12月，Python3.0发布了。Python3.x不向后兼容Python2.x，这意味着Python3.x可能无法运行Python2.x的代码。Python3代表着Python语言的未来。
+
+
+
+Java发展历史
+
+1991年，Sun公司成立Green项目。Oak语言诞生。
+
+1992年11月，Sun公司为Green项目成立FirstPerson公司。同年，因为想要做高端互动的电视机顶盒的投标失败，在电视厂商并没有任何收益，所以被并回SUN公司。
+
+1992年12月3日，被命名为Star7的面向一种类PDA的这台设备进行了展示，这种设备有鲜艳的图形界面和被称为“Duke”的智能代理来帮助用户。
+
+第一个成果是可触摸控制的手持家庭娱乐设备控制器，名为Star7（starseven）。
+
+1993年，FirstPerson公司重定位Oak。转向到网络应用领域（背景：WWW开始席卷全球）。
+
+1994年6月，Oak技术包括源代码全部免费公开。Oak开发出小型万维网浏览器WebRunner，后更名为HotJava。Oak编写的Applet让网页由静态转成动态。
+
+1995年，Oak注册登记时，发现该名已被占用，遂更名为Java。
+
+1995年5月23日，Sun公司在Sun world会议上正式发布Java和HotJava浏览器。
+
+1996年1月，Sun公司发布了Java的第一个开发工具包（JDK 1.0），这是Java发展历程中的重要里程碑，标志着Java成为一种独立的开发工具。
+
+1996年9月，约8.3万个网页应用了Java技术来制作。
+
+1996年10月，Sun公司发布了Java平台的第一个即时（JIT）编译器。
+
+1997年2月，JDK1.1发布，在随后的3周时间里，达到了22万次的下载量。
+
+1997年4月，JavaOne会议召开，参与者逾一万人，创当时全球同类会议规模之纪录。
+
+1997年9月，JavaDeveloperConnection社区成员超过十万。
+
+1998年2月，JDK1.1被下载超过2,000,000次。
+
+1998年12月8日，Java2企业平台J2EE发布。
+
+1999年4月27日，HotSpot虚拟机发布。HotSpot虚拟机发布时是作为JDK 1.2的附加程序提供的，后来它成为了JDK 1.3及之后所有版本的Sun JDK的默认虚拟机[7] 。
+
+1999年6月，SUN公司发布Java的三个版本：标准版（JavaSE,以前是J2SE）、企业版（JavaEE以前是J2EE）和微型版（JavaME，以前是J2ME）。
+
+2005年6月，JavaOne大会召开，SUN公司公开JavaSE6。此时，Java的各种版本已经更名，以取消其中的数字”2″：J2EE更名为JavaEE，J2SE更名为JavaSE，J2ME更名为JavaME。
+
+2006年11月13日，Java技术的发明者Sun公司宣布，将Java技术作为免费软件对外发布。Sun公司正式发布的有关Java平台标准版的第一批源代码，以及Java迷你版的可执行源代码。
+
+总的来说，C语言是这几个计算机语言中出现最后早的，而且大部分都是在c的基础上再创造的，而且在编程语言排行榜中C语言基本前排，这是我们老师给我们说为什么计算机专业的我们得学C语言。。。
